@@ -1,29 +1,12 @@
-variable "vpc_id" {
-  type = string
-  default = "vpc-0799504f6df9624a0"
-}
+variable "vpc_id" {}
 
-variable "security_group_name" {
-    type = string
-    default = ""
-   }
+variable "security_group_name" {}
+variable "security_group_description" {}
 
-variable "security_group_description" {
-  type = string
-}
+variable "launch_template_name" {}
 
-variable "launch_template_name" {
-  type = string
-}
+variable "instance_type" {}
 
-variable "instance_type" {
-  type = string
-}
+variable "key_pair" {}
 
-variable "key_pair" {
-  type = string
-}
-
-variable "availability_zone" {
-  type = string
-}
+variable "availability_zone" {}

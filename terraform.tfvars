@@ -1,0 +1,7 @@
+vpc_id                     = "vpc-0799504f6df9624a0"
+security_group_name        = "asaghatelyan-sg"
+security_group_description = "Example security group from"
+launch_template_name       = "asaghatelyan_launch_template"
+instance_type              = "t2.micro"
+key_pair                   = "sunnyscool"
+availability_zone_tf       = "us-east-1"
